@@ -1,4 +1,19 @@
-Project Profile
+#Problem Definition
+
+SSH brute-force attacks are a major security risk for any internet-exposed server. Attackers
+use automated tools to repeatedly guess login credentials, which can lead to unauthorized
+access if weak passwords are in use. Traditional security measures often rely on manual log
+monitoring, which is inefficient and slow to respond to rapid, large-scale attacks. Without
+real-time detection and automated blocking, systems remain vulnerable to compromise.
+
+This project addresses the challenge of automating SSH attack detection and prevention using
+Wazuh (SIEM) and Fail2Ban. The goal is to create a lightweight, open-source solution that
+monitors SSH logs for suspicious activity, triggers alerts, and automatically blocks malicious
+IPs—reducing the burden on security teams while improving response times. By
+implementing this system, organizations can enhance their defenses against one of the most
+common attack vectors without expensive commercial tools.
+
+#Project Profile
 
 This project focuses on securing Linux-based servers against SSH brute-force attacks, which 
 remain one of the most common methods attackers use to gain unauthorized access. The
